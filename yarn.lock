@@ -2039,6 +2039,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nrwl/cli@npm:14.8.4":
+  version: 14.8.4
+  resolution: "@nrwl/cli@npm:14.8.4"
+  dependencies:
+    nx: 14.8.4
+  checksum: f2146664c63ef1f07a591dafa496d8ab763b7761de7b3b8c1a7b525737eb21c6256c4ef6a54253e24881f111b5c8478332c1da2424cb84b799721fb663bf9aac
+  languageName: node
+  linkType: hard
+
 "@nrwl/cypress@npm:14.8.3":
   version: 14.8.3
   resolution: "@nrwl/cypress@npm:14.8.3"
@@ -2082,6 +2091,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nrwl/devkit@npm:14.8.4":
+  version: 14.8.4
+  resolution: "@nrwl/devkit@npm:14.8.4"
+  dependencies:
+    "@phenomnomnominal/tsquery": 4.1.1
+    ejs: ^3.1.7
+    ignore: ^5.0.4
+    tslib: ^2.3.0
+  peerDependencies:
+    nx: ">= 13.10 <= 15"
+  checksum: 7da82be7577aa2f52a5f10d519e395d7a186643aa7c37be833456c54a49538b7c521e770371382f1c79a140d6c6ba9ce8ab45bf4dfa361ab80cb6befb8fc04d4
+  languageName: node
+  linkType: hard
+
 "@nrwl/eslint-plugin-nx@npm:14.8.3":
   version: 14.8.3
   resolution: "@nrwl/eslint-plugin-nx@npm:14.8.3"
@@ -2102,6 +2125,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nrwl/express@npm:^14.8.4":
+  version: 14.8.4
+  resolution: "@nrwl/express@npm:14.8.4"
+  dependencies:
+    "@nrwl/devkit": 14.8.4
+    "@nrwl/node": 14.8.4
+    "@nrwl/workspace": 14.8.4
+  peerDependencies:
+    express: ^4.18.1
+  peerDependenciesMeta:
+    express:
+      optional: true
+  checksum: f30aa084a67e887619fd0bf4e54d092da36e7078c8870577c2a7701fee599f737b5489bc35c894712d0fd6ba4e49b926d45e9f403fbe0bdef7dbfba88859ca55
+  languageName: node
+  linkType: hard
+
 "@nrwl/jest@npm:14.8.3":
   version: 14.8.3
   resolution: "@nrwl/jest@npm:14.8.3"
@@ -2119,6 +2158,26 @@ __metadata:
     resolve.exports: 1.1.0
     tslib: ^2.3.0
   checksum: 65c2ed91adda4ab0c86a603ae48488402d128cdf2a130c704475915b583d09cb5f9ae3338a7338feb8a265104fcac61d4207079cb815456fe3bc7c20dd90a530
+  languageName: node
+  linkType: hard
+
+"@nrwl/jest@npm:14.8.4":
+  version: 14.8.4
+  resolution: "@nrwl/jest@npm:14.8.4"
+  dependencies:
+    "@jest/reporters": 28.1.1
+    "@jest/test-result": 28.1.1
+    "@nrwl/devkit": 14.8.4
+    "@phenomnomnominal/tsquery": 4.1.1
+    chalk: 4.1.0
+    dotenv: ~10.0.0
+    identity-obj-proxy: 3.0.0
+    jest-config: 28.1.1
+    jest-resolve: 28.1.1
+    jest-util: 28.1.1
+    resolve.exports: 1.1.0
+    tslib: ^2.3.0
+  checksum: 5fa1751af81ddd78e152f227557c37a6455c31f345c312167accfda59db4ac9d3725ee25bb65555f260ca2bd7f90b09ea356db173ef55110dcabfb859c707ccc
   languageName: node
   linkType: hard
 
@@ -2143,6 +2202,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nrwl/js@npm:14.8.4":
+  version: 14.8.4
+  resolution: "@nrwl/js@npm:14.8.4"
+  dependencies:
+    "@nrwl/devkit": 14.8.4
+    "@nrwl/jest": 14.8.4
+    "@nrwl/linter": 14.8.4
+    "@nrwl/workspace": 14.8.4
+    "@parcel/watcher": 2.0.4
+    chalk: 4.1.0
+    fast-glob: 3.2.7
+    fs-extra: ^10.1.0
+    ignore: ^5.0.4
+    js-tokens: ^4.0.0
+    minimatch: 3.0.5
+    source-map-support: 0.5.19
+    tree-kill: 1.2.2
+  checksum: 5d98726662bcd1b859d05c0ff53041468904aca3594a64e920cc022933626eb5365190292134a3053cd1e060de0eae2462532a82b53cafd42a6c966ee3a1cf06
+  languageName: node
+  linkType: hard
+
 "@nrwl/linter@npm:14.8.3":
   version: 14.8.3
   resolution: "@nrwl/linter@npm:14.8.3"
@@ -2159,6 +2239,41 @@ __metadata:
     eslint:
       optional: true
   checksum: 717b313bfaa659e1fa0bfd89cf55012b8ee1e123e34703a5f9f734b5648092f2f77cbc4d810a5f4ec7b6fbed14b4755885d64065c6a78da62bc7eca03c4d9307
+  languageName: node
+  linkType: hard
+
+"@nrwl/linter@npm:14.8.4":
+  version: 14.8.4
+  resolution: "@nrwl/linter@npm:14.8.4"
+  dependencies:
+    "@nrwl/devkit": 14.8.4
+    "@nrwl/jest": 14.8.4
+    "@phenomnomnominal/tsquery": 4.1.1
+    nx: 14.8.4
+    tmp: ~0.2.1
+    tslib: ^2.3.0
+  peerDependencies:
+    eslint: ^8.0.0
+  peerDependenciesMeta:
+    eslint:
+      optional: true
+  checksum: f2e85dbf12f015ec70aa62ef40c470e896821f5f5601bfde45d3ea6432791af87dae27fb9eca47f75138f4c3431fef5ef61d718c5fe6052c8ed5fa564790cbe5
+  languageName: node
+  linkType: hard
+
+"@nrwl/node@npm:14.8.4":
+  version: 14.8.4
+  resolution: "@nrwl/node@npm:14.8.4"
+  dependencies:
+    "@nrwl/devkit": 14.8.4
+    "@nrwl/jest": 14.8.4
+    "@nrwl/js": 14.8.4
+    "@nrwl/linter": 14.8.4
+    "@nrwl/webpack": 14.8.4
+    "@nrwl/workspace": 14.8.4
+    chalk: 4.1.0
+    tslib: ^2.3.0
+  checksum: 19d364c2aafa4aff74ba162e634df1f2cff487c43333b59b162f114e6058781286993b35f2a96cc6ed41c16102f1d6277b7ef284903b4a00230ccb9cff8ad5cc
   languageName: node
   linkType: hard
 
@@ -2266,6 +2381,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nrwl/tao@npm:14.8.4":
+  version: 14.8.4
+  resolution: "@nrwl/tao@npm:14.8.4"
+  dependencies:
+    nx: 14.8.4
+  bin:
+    tao: index.js
+  checksum: 8be3ba083b7a7a9960abe0c0ab43f2f4af37d719cc60700f872eacbd3b77c19d711f638961525373b8ff168b9e9c4f85d501629de7d67986fffae9144f4a6b0c
+  languageName: node
+  linkType: hard
+
 "@nrwl/web@npm:14.8.3":
   version: 14.8.3
   resolution: "@nrwl/web@npm:14.8.3"
@@ -2351,6 +2477,60 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nrwl/webpack@npm:14.8.4":
+  version: 14.8.4
+  resolution: "@nrwl/webpack@npm:14.8.4"
+  dependencies:
+    "@nrwl/devkit": 14.8.4
+    "@nrwl/js": 14.8.4
+    "@nrwl/workspace": 14.8.4
+    autoprefixer: ^10.4.9
+    babel-loader: ^8.2.2
+    browserslist: ^4.16.6
+    caniuse-lite: ^1.0.30001394
+    chalk: 4.1.0
+    chokidar: ^3.5.1
+    copy-webpack-plugin: ^10.2.4
+    css-minimizer-webpack-plugin: ^3.4.1
+    dotenv: ~10.0.0
+    file-loader: ^6.2.0
+    fork-ts-checker-webpack-plugin: 7.2.13
+    fs-extra: ^10.1.0
+    ignore: ^5.0.4
+    less: 3.12.2
+    less-loader: ^10.1.0
+    license-webpack-plugin: ^4.0.2
+    loader-utils: 1.2.3
+    mini-css-extract-plugin: ~2.4.7
+    parse5: 4.0.0
+    parse5-html-rewriting-stream: 6.0.1
+    postcss: ^8.4.14
+    postcss-import: ~14.1.0
+    postcss-loader: ^6.1.1
+    raw-loader: ^4.0.2
+    rxjs: ^6.5.4
+    sass: ^1.42.1
+    sass-loader: ^12.2.0
+    source-map-loader: ^3.0.0
+    style-loader: ^3.3.0
+    stylus: ^0.55.0
+    stylus-loader: ^6.2.0
+    terser-webpack-plugin: ^5.3.3
+    ts-loader: ^9.3.1
+    ts-node: 10.9.1
+    tsconfig-paths: ^3.9.0
+    tsconfig-paths-webpack-plugin: 3.5.2
+    tslib: ^2.3.0
+    webpack: ^5.58.1
+    webpack-dev-server: ^4.9.3
+    webpack-merge: ^5.8.0
+    webpack-node-externals: ^3.0.0
+    webpack-sources: ^3.2.3
+    webpack-subresource-integrity: ^5.1.0
+  checksum: 795c3609e0671a4692b9384fbfec40ca860758913d4d01264bcdd4f90515fb4cba82b8b17dac7de012ebc3579c9c1109d2598b603d0ac09c90e772ad56fae30f
+  languageName: node
+  linkType: hard
+
 "@nrwl/workspace@npm:14.8.3":
   version: 14.8.3
   resolution: "@nrwl/workspace@npm:14.8.3"
@@ -2386,6 +2566,44 @@ __metadata:
     prettier:
       optional: true
   checksum: aa1e592b3c598357ba4cb995d5e0294b0009716ef405046d11a5093d04d1f627d7cfc4f1151c8b6e22afa1b3fc8cb69858b3ad3681e800d0858cc7ec439897b4
+  languageName: node
+  linkType: hard
+
+"@nrwl/workspace@npm:14.8.4":
+  version: 14.8.4
+  resolution: "@nrwl/workspace@npm:14.8.4"
+  dependencies:
+    "@nrwl/devkit": 14.8.4
+    "@nrwl/jest": 14.8.4
+    "@nrwl/linter": 14.8.4
+    "@parcel/watcher": 2.0.4
+    chalk: 4.1.0
+    chokidar: ^3.5.1
+    cli-cursor: 3.1.0
+    cli-spinners: 2.6.1
+    dotenv: ~10.0.0
+    enquirer: ~2.3.6
+    figures: 3.2.0
+    flat: ^5.0.2
+    fs-extra: ^10.1.0
+    glob: 7.1.4
+    ignore: ^5.0.4
+    minimatch: 3.0.5
+    npm-run-path: ^4.0.1
+    nx: 14.8.4
+    open: ^8.4.0
+    rxjs: ^6.5.4
+    semver: 7.3.4
+    tmp: ~0.2.1
+    tslib: ^2.3.0
+    yargs: ^17.4.0
+    yargs-parser: 21.0.1
+  peerDependencies:
+    prettier: ^2.6.2
+  peerDependenciesMeta:
+    prettier:
+      optional: true
+  checksum: 21446ae18446262a8572244eccf6f212eeb1a6fbf864bb5d79b04851a62859fdf9e4215082a0958e0b82d6a548aa803c03911e1692bd6948929738cf920585c2
   languageName: node
   linkType: hard
 
@@ -2945,6 +3163,18 @@ __metadata:
     "@types/qs": "*"
     "@types/serve-static": "*"
   checksum: 15c1af46d02de834e4a225eccaa9d85c0370fdbb3ed4e1bc2d323d24872309961542b993ae236335aeb3e278630224a6ea002078d39e651d78a3b0356b1eaa79
+  languageName: node
+  linkType: hard
+
+"@types/express@npm:4.17.13":
+  version: 4.17.13
+  resolution: "@types/express@npm:4.17.13"
+  dependencies:
+    "@types/body-parser": "*"
+    "@types/express-serve-static-core": ^4.17.18
+    "@types/qs": "*"
+    "@types/serve-static": "*"
+  checksum: 12a2a0e6c4b993fc0854bec665906788aea0d8ee4392389d7a98a5de1eefdd33c9e1e40a91f3afd274011119c506f7b4126acb97fae62ae20b654974d44cba12
   languageName: node
   linkType: hard
 
@@ -4111,6 +4341,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"axios@npm:^1.0.0":
+  version: 1.1.2
+  resolution: "axios@npm:1.1.2"
+  dependencies:
+    follow-redirects: ^1.15.0
+    form-data: ^4.0.0
+    proxy-from-env: ^1.1.0
+  checksum: 136c25a5031aa2845fdbda3006c36888bbe351b11d1195f1f898a23c5df1430febbdb1ad034a61f27967e83762d5b5a3e851fff8a363cb4badeb883f8ff21461
+  languageName: node
+  linkType: hard
+
 "axobject-query@npm:^2.2.0":
   version: 2.2.0
   resolution: "axobject-query@npm:2.2.0"
@@ -4449,6 +4690,26 @@ __metadata:
     type-is: ~1.6.18
     unpipe: 1.0.0
   checksum: 12fffdeac82fe20dddcab7074215d5156e7d02a69ae90cbe9fee1ca3efa2f28ef52097cbea76685ee0a1509c71d85abd0056a08e612c09077cad6277a644cf88
+  languageName: node
+  linkType: hard
+
+"body-parser@npm:1.20.1":
+  version: 1.20.1
+  resolution: "body-parser@npm:1.20.1"
+  dependencies:
+    bytes: 3.1.2
+    content-type: ~1.0.4
+    debug: 2.6.9
+    depd: 2.0.0
+    destroy: 1.2.0
+    http-errors: 2.0.0
+    iconv-lite: 0.4.24
+    on-finished: 2.4.1
+    qs: 6.11.0
+    raw-body: 2.5.1
+    type-is: ~1.6.18
+    unpipe: 1.0.0
+  checksum: f1050dbac3bede6a78f0b87947a8d548ce43f91ccc718a50dd774f3c81f2d8b04693e52acf62659fad23101827dd318da1fb1363444ff9a8482b886a3e4a5266
   languageName: node
   linkType: hard
 
@@ -6491,6 +6752,45 @@ __metadata:
   languageName: node
   linkType: hard
 
+"express@npm:^4.18.1":
+  version: 4.18.2
+  resolution: "express@npm:4.18.2"
+  dependencies:
+    accepts: ~1.3.8
+    array-flatten: 1.1.1
+    body-parser: 1.20.1
+    content-disposition: 0.5.4
+    content-type: ~1.0.4
+    cookie: 0.5.0
+    cookie-signature: 1.0.6
+    debug: 2.6.9
+    depd: 2.0.0
+    encodeurl: ~1.0.2
+    escape-html: ~1.0.3
+    etag: ~1.8.1
+    finalhandler: 1.2.0
+    fresh: 0.5.2
+    http-errors: 2.0.0
+    merge-descriptors: 1.0.1
+    methods: ~1.1.2
+    on-finished: 2.4.1
+    parseurl: ~1.3.3
+    path-to-regexp: 0.1.7
+    proxy-addr: ~2.0.7
+    qs: 6.11.0
+    range-parser: ~1.2.1
+    safe-buffer: 5.2.1
+    send: 0.18.0
+    serve-static: 1.15.0
+    setprototypeof: 1.2.0
+    statuses: 2.0.1
+    type-is: ~1.6.18
+    utils-merge: 1.0.1
+    vary: ~1.1.2
+  checksum: 3c4b9b076879442f6b968fe53d85d9f1eeacbb4f4c41e5f16cc36d77ce39a2b0d81b3f250514982110d815b2f7173f5561367f9110fcc541f9371948e8c8b037
+  languageName: node
+  linkType: hard
+
 "extend@npm:~3.0.2":
   version: 3.0.2
   resolution: "extend@npm:3.0.2"
@@ -6732,7 +7032,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.10.0, follow-redirects@npm:^1.14.0":
+"follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.10.0, follow-redirects@npm:^1.14.0, follow-redirects@npm:^1.15.0":
   version: 1.15.2
   resolution: "follow-redirects@npm:1.15.2"
   peerDependenciesMeta:
@@ -9739,6 +10039,59 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nx@npm:14.8.4":
+  version: 14.8.4
+  resolution: "nx@npm:14.8.4"
+  dependencies:
+    "@nrwl/cli": 14.8.4
+    "@nrwl/tao": 14.8.4
+    "@parcel/watcher": 2.0.4
+    "@yarnpkg/lockfile": ^1.1.0
+    "@yarnpkg/parsers": ^3.0.0-rc.18
+    "@zkochan/js-yaml": 0.0.6
+    axios: ^1.0.0
+    chalk: 4.1.0
+    chokidar: ^3.5.1
+    cli-cursor: 3.1.0
+    cli-spinners: 2.6.1
+    cliui: ^7.0.2
+    dotenv: ~10.0.0
+    enquirer: ~2.3.6
+    fast-glob: 3.2.7
+    figures: 3.2.0
+    flat: ^5.0.2
+    fs-extra: ^10.1.0
+    glob: 7.1.4
+    ignore: ^5.0.4
+    js-yaml: 4.1.0
+    jsonc-parser: 3.2.0
+    minimatch: 3.0.5
+    npm-run-path: ^4.0.1
+    open: ^8.4.0
+    semver: 7.3.4
+    string-width: ^4.2.3
+    strong-log-transformer: ^2.1.0
+    tar-stream: ~2.2.0
+    tmp: ~0.2.1
+    tsconfig-paths: ^3.9.0
+    tslib: ^2.3.0
+    v8-compile-cache: 2.3.0
+    yargs: ^17.4.0
+    yargs-parser: 21.0.1
+  peerDependencies:
+    "@swc-node/register": ^1.4.2
+    "@swc/core": ^1.2.173
+  peerDependenciesMeta:
+    "@swc-node/register":
+      optional: true
+    "@swc/core":
+      optional: true
+  bin:
+    nx: bin/nx.js
+  checksum: 28026fa22c527f466a38ccc583bcf12cb5bdf971d69d4db51e2eac2b79784fe4709f315fdaae8700eae691dbc8a80e1f91b2d475f9f1b34d49b81f7b83667e0a
+  languageName: node
+  linkType: hard
+
 "object-assign@npm:^4.1.1":
   version: 4.1.1
   resolution: "object-assign@npm:4.1.1"
@@ -10767,6 +11120,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"proxy-from-env@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "proxy-from-env@npm:1.1.0"
+  checksum: ed7fcc2ba0a33404958e34d95d18638249a68c430e30fcb6c478497d72739ba64ce9810a24f53a7d921d0c065e5b78e3822759800698167256b04659366ca4d4
+  languageName: node
+  linkType: hard
+
 "prr@npm:~1.0.1":
   version: 1.0.1
   resolution: "prr@npm:1.0.1"
@@ -10807,7 +11167,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"qs@npm:^6.4.0":
+"qs@npm:6.11.0, qs@npm:^6.4.0":
   version: 6.11.0
   resolution: "qs@npm:6.11.0"
   dependencies:
@@ -10917,13 +11277,16 @@ __metadata:
     "@nrwl/cli": 14.8.3
     "@nrwl/cypress": 14.8.3
     "@nrwl/eslint-plugin-nx": 14.8.3
+    "@nrwl/express": ^14.8.4
     "@nrwl/jest": 14.8.3
     "@nrwl/linter": 14.8.3
+    "@nrwl/node": 14.8.4
     "@nrwl/nx-cloud": latest
     "@nrwl/react": 14.8.3
     "@nrwl/web": 14.8.3
     "@nrwl/workspace": 14.8.3
     "@testing-library/react": 13.4.0
+    "@types/express": 4.17.13
     "@types/jest": 28.1.1
     "@types/node": 16.11.7
     "@types/react": 18.0.20
@@ -10943,6 +11306,7 @@ __metadata:
     eslint-plugin-jsx-a11y: 6.6.1
     eslint-plugin-react: 7.31.8
     eslint-plugin-react-hooks: 4.6.0
+    express: ^4.18.1
     jest: 28.1.1
     jest-environment-jsdom: 28.1.1
     nx: 14.8.3
